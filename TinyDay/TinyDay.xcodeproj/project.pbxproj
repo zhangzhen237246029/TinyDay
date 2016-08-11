@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A58E5D81D5C615500AD67E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A58E5D61D5C615500AD67E1 /* LaunchScreen.storyboard */; };
+		1A58E5D91D5C615500AD67E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A58E5D71D5C615500AD67E1 /* Main.storyboard */; };
+		1A58E5DE1D5C61A200AD67E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A58E5DC1D5C61A200AD67E1 /* main.m */; };
+		1A58E6261D5C63D200AD67E1 /* AppDelegate+IM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A58E60A1D5C63D200AD67E1 /* AppDelegate+IM.m */; };
+		1A58E6271D5C63D200AD67E1 /* NSObject+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A58E60C1D5C63D200AD67E1 /* NSObject+Parse.m */; };
+		1A58E6281D5C63D200AD67E1 /* NSString+IM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A58E60E1D5C63D200AD67E1 /* NSString+IM.m */; };
+		1A58E6291D5C63D200AD67E1 /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A58E6101D5C63D200AD67E1 /* UIScrollView+Refresh.m */; };
+		1A58E62A1D5C63D200AD67E1 /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A58E6121D5C63D200AD67E1 /* UIView+HUD.m */; };
+		1A58E62B1D5C63D200AD67E1 /* BaseNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A58E6191D5C63D200AD67E1 /* BaseNetworking.m */; };
+		1A58E62C1D5C63D200AD67E1 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A58E61C1D5C63D200AD67E1 /* Factory.m */; };
+		1A58E62D1D5C63D200AD67E1 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A58E61F1D5C63D200AD67E1 /* MOBFoundation.framework */; };
+		1A58E62E1D5C63D200AD67E1 /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A58E6201D5C63D200AD67E1 /* SMS_SDK.framework */; };
+		1A58E62F1D5C63D200AD67E1 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A58E6251D5C63D200AD67E1 /* BaseViewModel.m */; };
+		1A58E6331D5C752300AD67E1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A58E6321D5C752300AD67E1 /* libz.tbd */; };
+		1A58E6351D5C752900AD67E1 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A58E6341D5C752900AD67E1 /* libicucore.tbd */; };
+		1A58E6371D5C752F00AD67E1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A58E6361D5C752F00AD67E1 /* MessageUI.framework */; };
+		1A58E6391D5C753A00AD67E1 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A58E6381D5C753A00AD67E1 /* JavaScriptCore.framework */; };
+		1A58E63B1D5C754100AD67E1 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A58E63A1D5C754100AD67E1 /* libstdc++.tbd */; };
+		1A58E63F1D5C78F800AD67E1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A58E63E1D5C78F800AD67E1 /* Info.plist */; };
+		1A80CCB31D5C572400204123 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A80CCB21D5C572400204123 /* AppDelegate.m */; };
+		1A80CCC71D5C5E9600204123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A80CCC61D5C5E9600204123 /* Assets.xcassets */; };
+		CBC2998725FF195D1DC5DF3A /* libPods-TinyDay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3199107C7C722E179D1FA95C /* libPods-TinyDay.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A58E5D61D5C615500AD67E1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A58E5D71D5C615500AD67E1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1A58E5DC1D5C61A200AD67E1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A58E5DF1D5C61C500AD67E1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1A58E6091D5C63D200AD67E1 /* AppDelegate+IM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+IM.h"; sourceTree = "<group>"; };
+		1A58E60A1D5C63D200AD67E1 /* AppDelegate+IM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+IM.m"; sourceTree = "<group>"; };
+		1A58E60B1D5C63D200AD67E1 /* NSObject+Parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Parse.h"; sourceTree = "<group>"; };
+		1A58E60C1D5C63D200AD67E1 /* NSObject+Parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Parse.m"; sourceTree = "<group>"; };
+		1A58E60D1D5C63D200AD67E1 /* NSString+IM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IM.h"; sourceTree = "<group>"; };
+		1A58E60E1D5C63D200AD67E1 /* NSString+IM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IM.m"; sourceTree = "<group>"; };
+		1A58E60F1D5C63D200AD67E1 /* UIScrollView+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Refresh.h"; sourceTree = "<group>"; };
+		1A58E6101D5C63D200AD67E1 /* UIScrollView+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Refresh.m"; sourceTree = "<group>"; };
+		1A58E6111D5C63D200AD67E1 /* UIView+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
+		1A58E6121D5C63D200AD67E1 /* UIView+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
+		1A58E6141D5C63D200AD67E1 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		1A58E6151D5C63D200AD67E1 /* RequestPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestPath.h; sourceTree = "<group>"; };
+		1A58E6181D5C63D200AD67E1 /* BaseNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetworking.h; sourceTree = "<group>"; };
+		1A58E6191D5C63D200AD67E1 /* BaseNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetworking.m; sourceTree = "<group>"; };
+		1A58E61B1D5C63D200AD67E1 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		1A58E61C1D5C63D200AD67E1 /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		1A58E61F1D5C63D200AD67E1 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		1A58E6201D5C63D200AD67E1 /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		1A58E6241D5C63D200AD67E1 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		1A58E6251D5C63D200AD67E1 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		1A58E6321D5C752300AD67E1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1A58E6341D5C752900AD67E1 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		1A58E6361D5C752F00AD67E1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1A58E6381D5C753A00AD67E1 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		1A58E63A1D5C754100AD67E1 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		1A58E63E1D5C78F800AD67E1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A80CCAB1D5C572400204123 /* TinyDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A80CCB11D5C572400204123 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A80CCB21D5C572400204123 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A80CCC61D5C5E9600204123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3199107C7C722E179D1FA95C /* libPods-TinyDay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TinyDay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D433231BDB73C7E24F5AF8BA /* Pods-TinyDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyDay.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinyDay/Pods-TinyDay.release.xcconfig"; sourceTree = "<group>"; };
+		D87E1FD58B1072126C6571C5 /* Pods-TinyDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyDay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinyDay/Pods-TinyDay.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A80CCA81D5C572400204123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A58E63B1D5C754100AD67E1 /* libstdc++.tbd in Frameworks */,
+				1A58E6391D5C753A00AD67E1 /* JavaScriptCore.framework in Frameworks */,
+				1A58E6371D5C752F00AD67E1 /* MessageUI.framework in Frameworks */,
+				1A58E6351D5C752900AD67E1 /* libicucore.tbd in Frameworks */,
+				1A58E6331D5C752300AD67E1 /* libz.tbd in Frameworks */,
+				1A58E62E1D5C63D200AD67E1 /* SMS_SDK.framework in Frameworks */,
+				1A58E62D1D5C63D200AD67E1 /* MOBFoundation.framework in Frameworks */,
+				CBC2998725FF195D1DC5DF3A /* libPods-TinyDay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A58E5DA1D5C61A200AD67E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A58E63E1D5C78F800AD67E1 /* Info.plist */,
+				1A58E5DC1D5C61A200AD67E1 /* main.m */,
+				1A58E5DF1D5C61C500AD67E1 /* PrefixHeader.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A58E6081D5C63D200AD67E1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1A58E6091D5C63D200AD67E1 /* AppDelegate+IM.h */,
+				1A58E60A1D5C63D200AD67E1 /* AppDelegate+IM.m */,
+				1A58E60B1D5C63D200AD67E1 /* NSObject+Parse.h */,
+				1A58E60C1D5C63D200AD67E1 /* NSObject+Parse.m */,
+				1A58E60D1D5C63D200AD67E1 /* NSString+IM.h */,
+				1A58E60E1D5C63D200AD67E1 /* NSString+IM.m */,
+				1A58E60F1D5C63D200AD67E1 /* UIScrollView+Refresh.h */,
+				1A58E6101D5C63D200AD67E1 /* UIScrollView+Refresh.m */,
+				1A58E6111D5C63D200AD67E1 /* UIView+HUD.h */,
+				1A58E6121D5C63D200AD67E1 /* UIView+HUD.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1A58E6131D5C63D200AD67E1 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				1A58E6141D5C63D200AD67E1 /* Constant.h */,
+				1A58E6151D5C63D200AD67E1 /* RequestPath.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		1A58E6161D5C63D200AD67E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A58E6171D5C63D200AD67E1 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				1A58E6181D5C63D200AD67E1 /* BaseNetworking.h */,
+				1A58E6191D5C63D200AD67E1 /* BaseNetworking.m */,
+			);
+			path = NetManager;
+			sourceTree = "<group>";
+		};
+		1A58E61A1D5C63D200AD67E1 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1A58E61B1D5C63D200AD67E1 /* Factory.h */,
+				1A58E61C1D5C63D200AD67E1 /* Factory.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1A58E61D1D5C63D200AD67E1 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				1A58E61E1D5C63D200AD67E1 /* SMS_SDK */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		1A58E61E1D5C63D200AD67E1 /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				1A58E61F1D5C63D200AD67E1 /* MOBFoundation.framework */,
+				1A58E6201D5C63D200AD67E1 /* SMS_SDK.framework */,
+			);
+			path = SMS_SDK;
+			sourceTree = "<group>";
+		};
+		1A58E6211D5C63D200AD67E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A58E6221D5C63D200AD67E1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1A58E6231D5C63D200AD67E1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1A58E6241D5C63D200AD67E1 /* BaseViewModel.h */,
+				1A58E6251D5C63D200AD67E1 /* BaseViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1A80CCA21D5C572400204123 = {
+			isa = PBXGroup;
+			children = (
+				1A80CCAD1D5C572400204123 /* TinyDay */,
+				1A80CCAC1D5C572400204123 /* Products */,
+				E3C3401960C6EC0CF8B5A698 /* Pods */,
+				E6BC4B5026940DE50CB45E44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A80CCAC1D5C572400204123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A80CCAB1D5C572400204123 /* TinyDay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A80CCAD1D5C572400204123 /* TinyDay */ = {
+			isa = PBXGroup;
+			children = (
+				1A80CCB11D5C572400204123 /* AppDelegate.h */,
+				1A80CCB21D5C572400204123 /* AppDelegate.m */,
+				1A58E6221D5C63D200AD67E1 /* ViewController */,
+				1A58E6211D5C63D200AD67E1 /* View */,
+				1A58E6231D5C63D200AD67E1 /* ViewModel */,
+				1A58E6161D5C63D200AD67E1 /* Model */,
+				1A58E6171D5C63D200AD67E1 /* NetManager */,
+				1A58E61A1D5C63D200AD67E1 /* Tool */,
+				1A58E6081D5C63D200AD67E1 /* Category */,
+				1A58E6131D5C63D200AD67E1 /* Define */,
+				1A80CCC51D5C5E9600204123 /* Resource */,
+				1A58E61D1D5C63D200AD67E1 /* Vendor */,
+				1A58E5DA1D5C61A200AD67E1 /* Supporting Files */,
+			);
+			path = TinyDay;
+			sourceTree = "<group>";
+		};
+		1A80CCC51D5C5E9600204123 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1A58E5D61D5C615500AD67E1 /* LaunchScreen.storyboard */,
+				1A58E5D71D5C615500AD67E1 /* Main.storyboard */,
+				1A80CCC61D5C5E9600204123 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E3C3401960C6EC0CF8B5A698 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D87E1FD58B1072126C6571C5 /* Pods-TinyDay.debug.xcconfig */,
+				D433231BDB73C7E24F5AF8BA /* Pods-TinyDay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6BC4B5026940DE50CB45E44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A58E63A1D5C754100AD67E1 /* libstdc++.tbd */,
+				1A58E6381D5C753A00AD67E1 /* JavaScriptCore.framework */,
+				1A58E6361D5C752F00AD67E1 /* MessageUI.framework */,
+				1A58E6341D5C752900AD67E1 /* libicucore.tbd */,
+				1A58E6321D5C752300AD67E1 /* libz.tbd */,
+				3199107C7C722E179D1FA95C /* libPods-TinyDay.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A80CCAA1D5C572400204123 /* TinyDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A80CCC21D5C572400204123 /* Build configuration list for PBXNativeTarget "TinyDay" */;
+			buildPhases = (
+				C7A5E3CA578D6E10172E161D /* [CP] Check Pods Manifest.lock */,
+				1A80CCA71D5C572400204123 /* Sources */,
+				1A80CCA81D5C572400204123 /* Frameworks */,
+				1A80CCA91D5C572400204123 /* Resources */,
+				0E045867B1343FED266B4A67 /* [CP] Embed Pods Frameworks */,
+				7BB88D71E2E2AD154B976CA8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyDay;
+			productName = TinyDay;
+			productReference = 1A80CCAB1D5C572400204123 /* TinyDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A80CCA31D5C572400204123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Icemelt;
+				TargetAttributes = {
+					1A80CCAA1D5C572400204123 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2HVYD9J9S7;
+					};
+				};
+			};
+			buildConfigurationList = 1A80CCA61D5C572400204123 /* Build configuration list for PBXProject "TinyDay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A80CCA21D5C572400204123;
+			productRefGroup = 1A80CCAC1D5C572400204123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A80CCAA1D5C572400204123 /* TinyDay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A80CCA91D5C572400204123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A58E5D91D5C615500AD67E1 /* Main.storyboard in Resources */,
+				1A80CCC71D5C5E9600204123 /* Assets.xcassets in Resources */,
+				1A58E63F1D5C78F800AD67E1 /* Info.plist in Resources */,
+				1A58E5D81D5C615500AD67E1 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E045867B1343FED266B4A67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinyDay/Pods-TinyDay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BB88D71E2E2AD154B976CA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinyDay/Pods-TinyDay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A5E3CA578D6E10172E161D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A80CCA71D5C572400204123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A58E62A1D5C63D200AD67E1 /* UIView+HUD.m in Sources */,
+				1A58E62C1D5C63D200AD67E1 /* Factory.m in Sources */,
+				1A58E5DE1D5C61A200AD67E1 /* main.m in Sources */,
+				1A58E6291D5C63D200AD67E1 /* UIScrollView+Refresh.m in Sources */,
+				1A58E6281D5C63D200AD67E1 /* NSString+IM.m in Sources */,
+				1A58E6271D5C63D200AD67E1 /* NSObject+Parse.m in Sources */,
+				1A80CCB31D5C572400204123 /* AppDelegate.m in Sources */,
+				1A58E62B1D5C63D200AD67E1 /* BaseNetworking.m in Sources */,
+				1A58E6261D5C63D200AD67E1 /* AppDelegate+IM.m in Sources */,
+				1A58E62F1D5C63D200AD67E1 /* BaseViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A80CCC01D5C572400204123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A80CCC11D5C572400204123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A80CCC31D5C572400204123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D87E1FD58B1072126C6571C5 /* Pods-TinyDay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TinyDay/Vendor/SMS_SDK",
+				);
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "TinyDay/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.TinyDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A80CCC41D5C572400204123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D433231BDB73C7E24F5AF8BA /* Pods-TinyDay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TinyDay/Vendor/SMS_SDK",
+				);
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "TinyDay/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.TinyDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A80CCA61D5C572400204123 /* Build configuration list for PBXProject "TinyDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A80CCC01D5C572400204123 /* Debug */,
+				1A80CCC11D5C572400204123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A80CCC21D5C572400204123 /* Build configuration list for PBXNativeTarget "TinyDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A80CCC31D5C572400204123 /* Debug */,
+				1A80CCC41D5C572400204123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A80CCA31D5C572400204123 /* Project object */;
+}
